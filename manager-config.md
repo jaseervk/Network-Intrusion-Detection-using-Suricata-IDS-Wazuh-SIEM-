@@ -17,7 +17,6 @@ Edit the local rules file on the **Wazuh Manager**:
 ```bash
 nano /var/ossec/etc/rules/local_rules.xml
 
-```bash
 
 <!-- Suricata: Nmap scan detection -->
 <rule id="100200" level="12">
