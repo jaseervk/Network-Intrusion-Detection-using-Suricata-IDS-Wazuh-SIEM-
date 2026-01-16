@@ -1,9 +1,5 @@
 
----
 
-## 📄 `agent-config.md`
-
-```md
 # Wazuh Agent – Suricata Log Monitoring Configuration
 
 ## Overview
