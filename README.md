@@ -2,60 +2,60 @@
 
 📌 Overview
 
-Built a Network Intrusion Detection System (NIDS) using Suricata IDS integrated with Wazuh SIEM
+- Built a Network Intrusion Detection System (NIDS) using Suricata IDS integrated with Wazuh SIEM
 
-Monitored real-time network traffic to detect malicious activity
+- Monitored real-time network traffic to detect malicious activity
 
-Simulated SOC workflows in a controlled lab environment
+- Simulated SOC workflows in a controlled lab environment
 
 🛠️ Tech Stack
 
-Suricata IDS
+- Suricata IDS
 
-Wazuh (Manager & Agent)
+- Wazuh (Manager & Agent)
 
-Nmap
+- Nmap
 
-Linux (Ubuntu)
+- Linux (Ubuntu)
 
-TCP/IP Networking
+- TCP/IP Networking
 
-MITRE ATT&CK
+- MITRE ATT&CK
 
 🔍 Key Capabilities
 
-Real-time packet and traffic inspection
+- Real-time packet and traffic inspection
 
-Detection of network reconnaissance and scan activity
+- Detection of network reconnaissance and scan activity
 
-Custom Wazuh rules for alert correlation and escalation
+- Custom Wazuh rules for alert correlation and escalation
 
-Source & destination IP attribution
+- Source & destination IP attribution
 
-Severity-based alert visualization in Wazuh Dashboard
+- Severity-based alert visualization in Wazuh Dashboard
 
 🧪 Attack Simulation
 
-Conducted stealth TCP scans using Nmap (-sS)
+- Conducted stealth TCP scans using Nmap (-sS)
 
-Generated controlled attack traffic
+- Generated controlled attack traffic
 
-Verified detection via Suricata ET Scan alerts
+- Verified detection via Suricata ET Scan alerts
 
-Correlated events in Wazuh SIEM
+- Correlated events in Wazuh SIEM
 
 📊 Detection Results
 
-Successfully detected Nmap scan activity
+- Successfully detected Nmap scan activity
 
-Alerts mapped to MITRE ATT&CK T1046 (Network Service Scanning)
+- Alerts mapped to MITRE ATT&CK T1046 (Network Service Scanning)
 
-Reduced false positives through rule tuning
+- Reduced false positives through rule tuning
 
 🎯 Learning Outcomes
 
-Hands-on IDS deployment and tuning
+- Hands-on IDS deployment and tuning
 
-Practical SOC-level monitoring experience
+- Practical SOC-level monitoring experience
 
-Network threat detection and log correlation
+- Network threat detection and log correlation
