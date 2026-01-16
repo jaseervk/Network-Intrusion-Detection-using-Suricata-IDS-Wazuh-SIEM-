@@ -17,6 +17,8 @@ Edit the agent configuration file:
 
 ```bash
 nano /var/ossec/etc/ossec.conf
+```
+```bash
 
 <!-- ADD SURICATA LOG MONITORING -->
 <localfile>
